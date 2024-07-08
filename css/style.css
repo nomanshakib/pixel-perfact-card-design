@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.card{
+    width: 420px;
+    border-radius: 10px;
+    background-color: #ffff;
+    border: 1px solid #D8DDE1;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.card .image{
+    margin-bottom: 30px;
+}
+
+.card .image img{
+    width: 100%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.card #img-upper-radius img{
+    width: 100%;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.card .text .date-comment {
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #696969;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.card .text .date {
+    display: flex;
+    gap: 10px;
+}
+
+.card .text .comment {
+    display: flex;
+    gap: 10px;
+}
+
+.card .text .card-title{
+    font-size: 24px;
+    color: #373A3F;
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.card .text .card-description{
+    font-size: 16px;
+    color: #696969;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .text .read-more{
+    margin-bottom: 25px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 24px; */
+    color: #077CEA;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+}
